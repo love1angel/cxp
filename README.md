@@ -3,7 +3,9 @@ cpp template repository
 
 ## todo
 
-[] cookie cutter generate repository
+- [x] clang-format
+- [] clang-tidy
+- [] cookie cutter generate repository
 
 ## modern use
 
@@ -21,3 +23,16 @@ $ sudo apt install clangd
 $ sudo pacman -Syy
 $ sudo pacman -S clangd
 ```
+
+### auto format
+
+#### format tools
+
+please use clang-format
+
+``` shell
+$ clang-format -style=WebKit -dump-config > .clang-format
+```
+
+vscode auto format: Clang-Format provided by Xaver Hellauer
+
