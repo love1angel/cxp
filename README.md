@@ -1,5 +1,24 @@
-# template
-cpp template repository
+# CXP
+
+Cpp generate project tools. modern good practise.
+
+## Prerequisite
+
+1. Python binary: cookiecutter
+
+``` shell
+# Ubuntu
+sudo apt-get install cookiecutter
+
+# Python
+pip install cookiecutter
+```
+
+## Usage
+
+``` shell
+cookiecutter https://github.com/love1angel/cxp/bin
+```
 
 ## todo
 

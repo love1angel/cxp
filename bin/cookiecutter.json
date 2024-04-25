@@ -1,0 +1,11 @@
+{
+    "project_name": "Demo",
+    "project_brief": "Demo Project",
+    "capital_namespace": "My",
+    "namespace": "{{ cookiecutter.capital_namespace|lower }}",
+    "target_platform": [
+        "linux",
+        "qnx",
+        "android"
+    ]
+}
