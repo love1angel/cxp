@@ -1,6 +1,6 @@
 # CXP
 
-Cpp generate project tools. modern good practise.
+Tools for generate Cpp project. modern use and good practice.
 
 ## Prerequisite
 

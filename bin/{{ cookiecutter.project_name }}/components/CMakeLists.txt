@@ -6,4 +6,3 @@ foreach(SUBDIR ${SUBDIRS})
         add_subdirectory(${SUBDIR})
     endif()
 endforeach()
-

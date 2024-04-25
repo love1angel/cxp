@@ -1,9 +1,7 @@
-#include <iostream>
-#include <libstatic/test.hpp>
+#include <{{ cookiecutter.lib_name }}/{{ cookiecutter.lib_name }}.hpp>
 
 int main(void)
 {
-    libstatic::test();
-    std::cout << "hello, world" << std::endl;
-    return 0;
+    {{ cookiecutter.namespace }}::{{ cookiecutter.lib_name }}::{{ cookiecutter.lib_name }} app;
+    return app.run();
 }

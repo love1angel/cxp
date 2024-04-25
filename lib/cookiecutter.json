@@ -1,0 +1,6 @@
+{
+    "capital_namespace": "My",
+    "namespace": "{{ cookiecutter.capital_namespace|lower }}",
+    "capital_lib_name": "Hello",
+    "lib_name": "{{ cookiecutter.capital_lib_name|lower }}"
+}
