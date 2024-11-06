@@ -1,0 +1,5 @@
+CompileFlags:
+  CompilationDatabase: build
+    Add:
+      - -std=c++2c
+      - -I/opt/homebrew/opt/llvm/include/c++/v1
